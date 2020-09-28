@@ -7,7 +7,7 @@ export const TodoInput = () => {
   const [value, setValue] = useState("");
 
   const handleAddTodo = (event) => {
-    if (event.key === "Enter") {
+    if (event.key === "Enter" && value) {
       setTodos([...todos, { value, id: v4() }]);
       setValue("");
     }

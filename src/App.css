@@ -1,0 +1,18 @@
+.App {
+  margin: 0 auto;
+  padding: 2em;
+  max-width: 600px;
+}
+
+.todo {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo__input {
+  font-size: 18px;
+  margin-bottom: 1em;
+  padding: 0.25em;
+  width: 100%;
+}
